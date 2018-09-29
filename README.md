@@ -5,6 +5,7 @@
 - [Visión general](#visión-general)
 - [Recomendaciones para tener buenas notas](#recomendaciones-para-tener-buenas-notas)
 - [Bibliografía recomendada](#bibliografía-recomendada)
+- [Contenido del repositorio](#contenido-del-repositorio)
 
 ## Visión general
 
@@ -27,3 +28,29 @@ https://www.youtube.com/watch?v=AfQxyVuLeCs&list=PLF64997E3C25882F1 (MIT 6.002)
 El MIT es el centro de educación superior con mayor prestigio del mundo y el profesor **Anand Agarwal** uno de los ingenieros más reputables del mundo, CEO de **EdX** así que, aprovecha que tienes este curso en línea, **GRATUITO** para subir tu nivel teórico. No te conformes, busca siempre más, **¡haz el curso!**
 
 Además, que estudies del libro *Foundations of AD Circuits* que es el usado en este curso. Además, te recomiendo el libro *Circuitos Eléctricos* de Dorf-Sbovoda.
+
+## Contenido del repositorio
+
+En este repositorio se encuentran, por prácticas, todos los scripts necesarios
+para realizar modelos de simulación.
+
+Cualquier error o novedad en los archivos, por favor notificar. Muchas gracias.
+
+
+Para realizar la carga de los datos, debes usar **MATLAB**, y debes cargar los
+datos en las variables indicadas. Para hacer eso, se hace click en
+**'Import data'**, se selecciona el archivo correspondiente, y se seleccionan
+las dos columnas más a la derecha, se les asigna un alias y se cargan en el
+espacio de trabajo. La columna más a la derecha son los valores de la curva,
+mientras la inmediata a la izquierda de esta son los valores de tiempo de la
+medida. 
+
+Para este código:
+
+  oscTime**XY**  --> Representa los valores de tiempo del osciloscopio
+  osc**XY**      --> Representa los valores de la curva del osciloscopio
+
+'X' puede tener dos valores: **Ind** o **Cap**
+'Y' puede tener dos valores: **Voltage** o **Current**
+
+Ejemplo: **oscTimeIndCurrent**
