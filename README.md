@@ -1,2 +1,29 @@
-# instrumentation
-Here you will find all scripts and programming tools for instrumentation course
+# Instrumentación 1
+
+## Tabla de contenidos
+
+- [Visión general](#visión-general)
+- [Recomendaciones para tener buenas notas](#recomendaciones-para-tener-buenas-notas)
+- [Bibliografía recomendada](#bibliografía-recomendada)
+
+## Visión general
+
+Todo ingeniero de Sistemas necesita tener interacción con la electrónica y las herramientas que esta ofrece. De manera que este curso está enfocado en estudiar y fortalecer los conceptos básicos de circuitos estudiados en cursos anteriores como Laboratorio de Física General y Física 21. También se estudiarán conceptos de la teoría clásica de Control para entender el funcionamiento y el comportamiento de los circuitos que poseen elementos almacenadores de energía como inductores y capacitores.
+
+## Recomendaciones para tener buenas notas
+
+- **¡Estudia la teoría de circuitos hasta el más mínimo detalle!**. No hay otra opción, debes hacerlo si quieres tener esperanzas de aprobar.
+- Realiza ejercicios complejos donde te sientas incómodo y seas obligado a enfrentar complejidad.
+- Estudia **Teoría de Control** y aplicaciones de la **Transformada de Laplace**. Esto va a serte sumamente útil, pues muchos de los circuitos que verás en el curso pueden ser **resueltos facilmente** haciendo uso de una transformación al dominio de la frecuencia mediante la transformada de Laplace.
+- Asiste a clases. El Profesor Miguel Peña es alguien que **valora enormemente** la asistencia y el esfuerzo de sus alumnos en el laboratorio durante el semestre.
+- ¡Pregunta tus dudas, no te quedes con ellas!
+
+## Bibliografía recomendada
+
+Te recomiendo **fuertemente** que realices este curso en su totalidad:
+
+https://www.youtube.com/watch?v=AfQxyVuLeCs&list=PLF64997E3C25882F1 (MIT 6.002)
+
+El MIT es el centro de educación superior con mayor prestigio del mundo y el profesor **Anand Agarwal** uno de los ingenieros más reputables del mundo, CEO de **EdX** así que, aprovecha que tienes este curso en línea, **GRATUITO** para subir tu nivel teórico. No te conformes, busca siempre más, **¡haz el curso!**
+
+Además, que estudies del libro *Foundations of AD Circuits* que es el usado en este curso. Además, te recomiendo el libro *Circuitos Eléctricos* de Dorf-Sbovoda.
