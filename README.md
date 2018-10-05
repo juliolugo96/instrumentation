@@ -65,4 +65,5 @@ Cuando tu práctica sea validada por el Profesor, debes enviar un correo a *migu
 **MENSAJE:** 
 
 *Apellido1, Nombre1 C.I.: V-012345678 (Sección x)*
+
 *Apellido2, Nombre2 C.I.: V-012345678 (Sección x)*
