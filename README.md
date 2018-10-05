@@ -60,6 +60,8 @@ Ejemplo: **oscTimeIndCurrent**
 
 Cuando tu práctica sea validada por el Profesor, debes enviar un correo a *miguel9019@gmail.com* con el siguiente formato:
 
--------------------
-**En construcción**
--------------------
+**ASUNTO:**  *Práctica #n. Instrumentación 1*
+**MENSAJE:** 
+
+*Apellido1, Nombre1 C.I.: V-012345678 (Sección x)*
+*Apellido2, Nombre2 C.I.: V-012345678 (Sección x)*
