@@ -36,6 +36,9 @@ para realizar modelos de simulación.
 
 Cualquier error o novedad en los archivos, por favor notificar. Muchas gracias.
 
+Para hacer uso correcto de los scripts, debe sustituir los datos correspondientes de sus prácticas y trabajar con ellos dentro de los códigos acá proveidos.
+
+En los códigos de las prácticas 3 y 4, se pueden encontrar explícito en el código los valores que deben ser sustituidos por los obtenidos en sus modelos matemáticos, de manera que no les resulte complicado realizar luego las simulaciones.
 
 Para realizar la carga de los datos, debes usar **MATLAB**, y debes cargar los
 datos en las variables indicadas. Para hacer eso, se hace click en
@@ -45,7 +48,19 @@ espacio de trabajo. La columna más a la derecha son los valores de la curva,
 mientras la inmediata a la izquierda de esta son los valores de tiempo de la
 medida. 
 
-Para este código:
+Para el código de la práctica 3 que se encuentra en este repositorio, encontrarán estas variables a las cuales deben cargarle los datos:
+  
+  currentTime
+  currentInductor
+  
+  voltageTime
+  voltageInductor
+
+Las variables que poseen el sufijo *time* representan los valores de tiempo emitidos por el osciloscopio para cada una de las mediciones tomadas. En el caso de VoltageTime, representa las medidas de tiempo emitidas por el osciloscopio mientras realizaba la medición del voltaje del inductor.
+  
+Pueden cambiarle el nombre al que deseen, pero debe coincidir con el alias que le asignen cuando realicen la importación usando **'Import data'**.
+  
+Para el código de la práctica 4:
 
   oscTime**XY**  --> Representa los valores de tiempo del osciloscopio
   osc**XY**      --> Representa los valores de la curva del osciloscopio

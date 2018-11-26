@@ -7,20 +7,24 @@
 % Global variables definition
 global V L FREQ PERIOD R1 R2 R3 VTH RTH
 
+% USE YOUR VALUES
 % Global variables initialization
 % Here you must set the values you used during simulation
 FREQ = 1017; % Frequency, it appears in the osciloscope
 PERIOD = 1/FREQ;
 
-% Resistance values
+% Resistance values (USE YOUR VALUES)
 R1 = 1000;
 R2 = 900;
 R3 = 1000;
 
 % Here I calculated Thevenin Resistance. It's not a mandatory action, but simplifies the problem
+
+% Change this values and use yours
+
 RTH = (R1*R3 + R2*R3 + R1*R2)/(R1+R3);
 
-% Same with Thevenin voltage
+% Same with Thevenin voltage (USE YOUR VALUES)
 VTH = (R3)*V/((R1+R3));
 
 V = 4.96;
@@ -69,7 +73,7 @@ for i = 1: 2
     numIndCurrent = [numIndCurrent; stateSpace(:,1)];
     numIndVoltage = [numIndVoltage; stateSpace(:,2)];
        
-    % Analytic Solution, which corresponds to the model calculated using Maple
+    % Analytic Solution, which corresponds to the model calculated using Maple, (CHANGE THIS VALUES AND USE YOURS)
     
     analyticIndCurrent = (stateVariables(:,1))*exp((-RTH)*(simTime-initTime)/L) + (VTH/RTH)*(1 - exp((-RTH)*(simTime-initTime)/L));
 
@@ -104,7 +108,7 @@ for i = 1: 2
     numIndCurrent = [numIndCurrent; stateSpace(:,1)];
     numIndVoltage = [numIndVoltage; stateSpace(:,2)];
        
-    % Analytic Solution (As you can see, the formula is actually similar )
+    % Analytic Solution (As you can see, the formula is actually similar, AGAIN CHANGE AND USE YOUR VALUES )
     
    analyticIndCurrent = (stateVariables(:,1))*exp(-RTH*(simTime-initTime)/L) + (VTH/RTH)*(1 - exp(-RTH*(simTime-initTime)/L));
    analyticIndVoltage = stateVariables(:,2) * exp(-RTH*(simTime - initTime)/L);
@@ -126,6 +130,7 @@ end
 % Take a look to those minimal values added to the current and the voltage time,
 % this happens because the osciloscope and ODE23 are not completely synchronized
 % you must "play" with this values to fit both plots
+% Change the values of xTime and xInductor (x={current, voltage}), you must import the data from the .CSV files using Import Data feature.
 
  figure(1);
  plot(totalTime,numIndCurrent, 'r' ,totalTime, analyticSolution(:,1), currentTime+0.001480, currentInductor/R2);
