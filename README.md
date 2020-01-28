@@ -71,6 +71,18 @@ Para el código de la práctica 4:
 
 Ejemplo: **oscTimeIndCurrent**
 
+## Los datos del CSV no cargan correctamente (Creditos a Luis Lezama)
+
+Al momento de exportar los datos del CSV, es posible que los mismos no se muestren correctamente en Excel, de manera que para dar un formato adecuado deben seguir los siguientes pasos:
+
+- Abrir una nueva hoja de calculo.
+- Hacer click en la pestana de datos.
+- Presionar Importar desde texto (From Text).
+- Buscar el archivo CSV correspondiente e importarlo.
+- Al abrirse el asistente de Excel, elegir como delimitador la **coma** (Comma), y finalizar.
+- Presionar **Ok**.
+
+
 ## Formato de correo
 
 Cuando tu práctica sea validada por el Profesor, debes enviar un correo a *miguel9019@gmail.com* con el siguiente formato:
